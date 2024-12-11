@@ -1,0 +1,350 @@
+{
+  "comment": [
+    "add new prey species to the relevant biome lists:",
+    "prey species should be added to both the singular and the plural lists e.g mouse, mice",
+    "prey species need to be completely non-seasonal, e.g no eggs, no chicks",
+    "prey species need to have names that make sense for cats",
+    "e.g yellow mouse (great), New York rat (no)",
+
+    "wet biomes (beach and wetlands) have both dry land and aquatic lists",
+    "some animals e.g crabs are appropriate for both dry land and aquatic lists",
+    "these lists allow writers to describe a fishing patrol and not fish up a squirrel",
+
+    "be sure to put your snippet in the relevant 'size' category",
+    "do not count tail lengths in these size categories - this is about how much edible meat the cat has hunted",
+    "tiny prey species are an inch to a 3 inches big, could be held in a cat's mouth, e.g a mouse",
+    "medium prey species are 3 inches to 6 inches long, easily carried by a cat e.g a blackbird",
+    "big prey species are 6-12 inches long, heavy enough to be hard to carry by a cat e.g a rabbit",
+    "prey species bigger than this are too large for the randomised prey lists",
+    "instead, make them the focus of their own patrol"
+  ],
+  "abbreviations": {
+    "b_bf_s": "beach_bushfruit_single",
+    "b_tf_s": "beach_treefruit_single",
+    "b_sm_s": "beach_smallmeat_single",
+    "b_lm_s": "beach_largemeat_single",
+    "b_la_s": "beach_largeaqua_single",
+    "b_la_s": "beach_smallaqua_single",
+    "b_bf_p": "beach_bushfruit_plural",
+    "b_tf_p": "beach_treefruit_plural",
+    "b_sa_p": "beach_smallaqua_plural",
+    "b_la_p": "beach_largeaqua_plural",
+    "b_lm_p": "beach_largemeat_plural",
+    "b_sm_p": "beach_smallmeat_plural",
+
+    "d_bf_s": "desert_bushfruit_single",
+    "d_sm_s": "desert_smallmeat_single",
+    "d_lm_s": "desert_largemeat_single",
+    "d_bf_p": "desert_bushfruit_plural",
+    "d_lm_p": "desert_largemeat_plural",
+    "d_sm_p": "desert_smallmeat_plural",
+
+    "f_bf_s": "forest_bushfruit_single",
+    "f_tf_s": "forest_treefruit_single",
+    "f_sm_s": "forest_smallmeat_single",
+    "f_lm_s": "forest_largemeat_single",
+    "f_sa_s": "forest_smallaqua_single",
+    "f_la_s": "forest_largeaqua_single",
+    "f_bf_p": "forest_bushfruit_plural",
+    "f_tf_p": "forest_treefruit_plural",
+    "f_sa_p": "forest_smallaqua_plural",
+    "f_la_p": "forest_largeaqua_plural",
+    "f_lm_p": "forest_largemeat_plural",
+    "f_sm_p": "forest_smallmeat_plural",
+
+    "m_bf_s": "mountain_bushfruit_single",
+    "m_tf_s": "mountain_treefruit_single",
+    "m_sm_s": "mountain_smallmeat_single",
+    "m_lm_s": "mountain_largemeat_single",
+    "m_bf_p": "mountain_bushfruit_plural",
+    "m_tf_p": "mountain_treefruit_plural",
+    "m_lm_p": "mountain_largemeat_plural",
+    "m_sm_p": "mountain_smallmeat_plural",
+
+    "p_bf_s": "plains_bushfruit_single",
+    "p_tf_s": "plains_treefruit_single",
+    "p_sm_s": "plains_smallmeat_single",
+    "p_lm_s": "plains_largemeat_single",
+    "p_bf_p": "plains_bushfruit_plural",
+    "p_tf_p": "plains_treefruit_plural",
+    "p_lm_p": "plains_largemeat_plural",
+    "p_sm_p": "plains_smallmeat_plural",
+
+    "w_bf_s": "wetlands_bushfruit_single",
+    "w_tf_s": "wetlands_treefruit_single",
+    "w_sm_s": "wetlands_smallmeat_single",
+    "w_lm_s": "wetlands_largemeat_single",
+    "w_sa_s": "wetlands_smallaqua_single",
+    "w_la_s": "wetlands_largeaqua_single",
+    "w_bf_p": "wetlands_bushfruit_plural",
+    "w_tf_p": "wetlands_treefruit_plural",
+    "w_sa_p": "wetlands_smallaqua_plural",
+    "w_la_p": "wetlands_largeaqua_plural",
+    "w_lm_p": "wetlands_largemeat_plural",
+    "w_sm_p": "wetlands_smallmeat_plural",
+  },
+
+  "beach_bushfruit_single": [
+    "beautyberry", "pineapple", "blueberry", "maypop", "grape", "seagrape",
+    "elderberry", "palmetto", "currant", "ugni berry", "goumi beautyberries",
+    "goldenberry", "gooseberry", "thimbleberry", "aronia berry", "caneberry"
+  ],
+  "beach_bushfruit_plural": [
+    "beautyberries", "pineapples" "blueberries", "maypops", "grapes", "seagrapes",
+    "elderberries", "palmettos", "currants", "ugni berries", "goumi berries",
+    "goldenberries", "gooseberries", "thimbleberries", "aronia berries", "caneberries"
+  ],
+  "beach_treefruit_single": [
+    "chestnut", "acorn", "rio cherry", "pawpaw", "lulo", "passionfruit", "babaco", "pepino dulce", 
+    "jelly palm", "bananna", "coconut", "loquat", "macadamia", "strawberry guava", "white sapote", 
+    "feijoa", "persimmon", "jackfruit", "avacado", "lychee"
+  ],
+  "beach_treefruit_plural": [
+    "chestnuts", "acorns", "rio cherries", "pawpaws", "lulos", "passionfruits", "babacos", "pepino dulces", 
+    "jelly palms", "banannas", "coconuts", "loquats", "macadamias", "strawberry guavas", "white sapotes", 
+    "feijoas", "persimmons", "jackfruits", "avacados", "lychees"
+  ],
+  "beach_smallmeat_singular": [
+    "beach vole", "fog shrew", "beach mouse",
+    "yellow-cheeked chipmunk", "ornate shrew", "pocket mouse", "marsh shrew",
+    "sandpiper", "plover", "finch", "thrush"
+  ],
+  "beach_smallmeat_plural": [
+    "beach voles", "fog shrews", "beach mice",
+    "yellow-cheeked chipmunks", "ornate shrews", "pocket mice", "marsh shrews",
+    "sandpipers", "plovers", "finches", "thrush"
+  ],
+  "beach_largemeat_singular": [
+    "dusky-footed woodrat", "auklet", "gannet", "skua", "loon", "herring gull", "ring-billed gull", "common tern",
+    "squirrel"
+  ],
+  "beach_largemeat_plural": [
+    "dusky-footed woodrats", "auklets", "gannets", "skua", "loons", "herring gulls", "ring-billed gulls", "common terns",
+    "squirrels"
+  ],
+  "beach_smallfish_singular": [
+    "shad", "anchovy", "sardine", "smelt", "pink shrimp", "white shrimp", "tropical fish", "sand fish", 
+    "flat head fish", "small brine fish", "prawn", "little seahorse", "seahorse", "cherubfish", "fairy basslet", 
+    "sailfin blenny", "yellowhead jawfish", "pinkeye goby", "tetra"
+  ],
+  "beach_smallfish_plural": [
+    "shad", "anchovies", "sardines", "smelt", "pink shrimp", "white shrimp", "tropical fish", "sand fish", 
+    "flat head fish", "small brine fish", "prawns", "little seahorses", "seahorses", "cherubfish", "fairy basslets", 
+    "sailfin blenny", "yellowhead jawfish", "pinkeye gobies", "tetras"
+  ],
+  "beach_largefish_singular": [
+    "eel", "needlenose", "blowfish", "sea bass", "young squid", "lionfish", "lobster", "sea snake",
+    "clown triggerfish", "angel fish", "powder blue tang", "yellow tang", "powder brown tang", "butterfly fish"
+  ],
+  "beach_largefish_plural": [
+    "eels", "needlenoses", "blowfish", "sea bass", "young squids", "lionfish", "lobsters", "sea snakes",
+    "clown triggerfish", "angel fish", "powder blue tangs", "yellow tangs", "powder brown tangs", "butterfly fish"
+  ],
+  
+  "desert_bushfruit_singular": [
+    "prickly pear", "cholla fruit", "mesquite pod", "physalis"
+  ],
+  "desert_bushfruit_plural": [
+    "prickly pears", "cholla fruits", "mesquite pods", "physalises"
+  ],
+  "desert_smallmeat_singular": [
+    "spotted ground squirrel", "round-tailed ground squirrel", "ground squirrel", "small bird", "desert pocket gopher",
+    "agile kangaroo rat", "spiny pocket mouse", "kangaroo rat", "chisel-toothed kangaroo rat", 
+    "banner-tailed kangaroo rat", "narrow-faced kangaroo rat", "big-eared kangaroo rat", "dark kangaroo mouse", 
+    "pale kangaroo mouse", "long-tailed pocket mouse", "desert pocket mouse", "silky pocket mouse", "canyon mouse", 
+    "cactus mouse", "deermouse", "white-ankled mouse", "desert shrew", "Long-eared bat", "elf owl", "whiptail", 
+    "masked shrike", "red-spotted toad", "jerboa", "golden hamster", "mulgara", "marsupial mole", "wombat", 
+    "pink fairy armadillo", "water-holding frog", "arabian sand boa", "gecko", "lizard", "thorny devil", 
+    "hopping mouse", "fat-tailed gerbil", "pale gerbil","fat sand rat", "bushy tailed jird", "short-eared gerbil", 
+    "hairy-footed gerbil"
+  ],
+  "desert_smallmeat_plural": [
+    "spotted ground squirrels", "round-tailed ground squirrels", "ground squirrels", "small birds", "desert pocket gophers",
+    "agile kangaroo rats", "spiny pocket mice", "kangaroo rats", "chisel-toothed kangaroo rats", 
+    "banner-tailed kangaroo rats", "narrow-faced kangaroo rats", "big-eared kangaroo rats", "dark kangaroo mice", 
+    "pale kangaroo mice", "long-tailed pocket mice", "desert pocket mice", "silky pocket mice", "canyon mice", 
+    "cactus mice", "deermice", "white-ankled mice", "desert shrews", "Long-eared bats", "elf owls", "whiptails", 
+    "masked shrikes", "red-spotted toads", "jerboas", "golden hamsters", "mulgaras", "marsupial moles", "wombats", 
+    "pink fairy armadillos", "water-holding frogs", "arabian sand boas", "geckos", "lizards", "thorny devils", 
+    "hopping mice", "fat-tailed gerbils", "pale gerbils","fat sand rats", "bushy tailed jirds", "short-eared gerbils", 
+    "hairy-footed gerbils"
+  ],
+  "desert_largemeat_singular": [
+    "antelope squirrel", "white-tailed antelope squirrel", "giant kangaroo rat", "rock squirrel",
+    "white-throated woodrat", "desert woodrat", "white-toothed woodrat", "sidewinder", "rattlesnake", "adder",
+    "armadillo", "desert iguana", "bilby", "meerkat", "sandgrouse", "three-banded armadillo", "nine-banded armadillo",
+    "mourning dove", "curve-billed thrasher", "great gerbil", "chaparral bird", "roadrunner", "hawk", "jackrabbit", 
+    "antelope jackrabbit", "ringtail", "hare", "desert hare", "crow", "vulture", "eagle"
+  ],
+  "desert_largemeat_plural": [
+    "antelope squirrels", "white-tailed antelope squirrels", "giant kangaroo rats", "rock squirrels",
+    "white-throated woodrats", "desert woodrats", "white-toothed woodrats", "sidewinders", "rattlesnakes", "adders",
+    "armadillos", "desert iguanas", "bilbies", "meerkats", "sandgrouse", "three-banded armadillos", "nine-banded armadillos",
+    "mourning doves", "curve-billed thrashers", "great gerbils", "chaparral birds", "roadrunners", "hawks", "jackrabbits", 
+    "antelope jackrabbits", "ringtails", "hares", "desert hares", "crows", "vultures", "eagles"
+  ],
+  
+  "forest_bushfruit_singular": [
+    "strawberry", "goji berry", "blackberry", "blueberry", "currant", "elderberry", "gooseberry", "serviceberry", "raspberry",
+    "blackhaw", "sumac berry", "nannyberry", "aronia berry", "cranberry", "juneberry", "grape", "kiwi"
+  ],
+  "forest_bushfruit_plural": [
+    "strawberries", "goji berries", "blackberries", "blueberries", "currants", "elderberries", "gooseberries", "serviceberries", "raspberries",
+    "blackhaws", "sumac berries", "nannyberries", "aronia berries", "cranberries", "juneberries", "grapes", "kiwis"
+  ],
+  "forest_treefruit_singular": [
+    "green apple", "yellow apple", "red apple", "crabapple", "pawpaw", "cherry", "elderberry", "plum", "mulberry", "apricot",
+    "pomegranate", "pear", "nectarine", "fig", "peach", "persimmon", "hackberry", "dogwood fruit", "acorn", "walnut", "hazelnut"
+    "hickory", "pecan", "chestnut", "butternut", "buckeye"
+  ],
+  "forest_treefruit_plural": [
+    "green apples","yellow apples", "red apples", "crabapples", "pawpaws", "cherries", "elderberries", "plums", "mulberries", "apricots",
+    "pomegranates", "pears", "nectarines", "figs", "peaches", "persimmons", "hackberries", "dogwood fruits", "acorns", "walnuts", "hazelnuts"
+    "hickory", "pecans", "chestnuts", "butternuts", "buckeyes"
+  ],
+  "forest_smallmeat_singular": [
+    "shrew", "robin", "vole", "dormouse", "blackbird", "wood mouse", "lizard", "tiny grass snake", "finch", "sparrow",
+    "small bird", "young rat", "young hedgehog", "big beetle", "woodrat", "white-footed mouse", "golden mouse",
+    "young squirrel", "chipmunk", "white-footed vole", "jumping mouse", "red tree vole", "gray-tailed vole",
+    "gray-footed chipmunk", "red-tailed chipmunk", "red-backed vole", "creeping vole", "woodland vole", "brush mouse",
+    "cotton mouse", "white-ankled mouse", "smoky shrew", "hairy-tailed mole", "mole", "broad-footed mole",
+    "shrew mole", "weasel", "deer mouse", "gnat catcher", "yellow rumped warbler", "rock dove", "stock dove",
+    "bank vole", "green anole", "towhee", "finch", "fantail", "bobwhite quail", "dark-eyed junco", "yellow-eyed junco",
+    "blue-bellies", "gray catbird"
+  ],
+  "forest_smallmeat_plural": [
+    "shrews", "robins", "voles", "dormice", "blackbirds", "wood mice", "lizards", "tiny grass snakes", "finches", "sparrows",
+    "small birds", "young rats", "young hedgehogs", "big beetles", "woodrats", "white-footed mice", "golden mice",
+    "young squirrels", "chipmunks", "white-footed voles", "jumping mice", "red tree voles", "gray-tailed voles",
+    "gray-footed chipmunks", "red-tailed chipmunks", "red-backed voles", "creeping voles", "woodland voles", "brush mice",
+    "cotton mice", "white-ankled mice", "smoky shrews", "hairy-tailed moles", "moles", "broad-footed moles",
+    "shrew moles", "weasels", "deer mice", "gnat catchers", "yellow rumped warblers", "rock doves", "stock doves",
+    "bank voles", "green anoles", "towhees", "finches", "fantails", "bobwhite quails", "dark-eyed juncos", "yellow-eyed juncos",
+    "blue-bellies", "gray catbirds"
+  ],
+  "forest_largemeat_singular": [
+    "plump shrew", "woodpecker", "mole", "fat dormouse", "blackbird", "field vole", "big lizard", "grass snake",
+    "half-grown rabbit", "hedgehog", "red squirrel", "grey squirrel", "rat", "flying squirrel", "kingfisher", "packrat",
+    "dusky-footed woodrat", "big-eared woodrat", "stoat", "ermine", "ruffed grouse", "cardinal", "ptarmigan",
+    "chukar", "quail", "pheasant", "starling", "blue jay", "stellar jay"
+  ],
+  "forest_largemeat_plural": [
+    "plump shrews", "woodpeckers", "moles", "fat dormice", "blackbirds", "field voles", "big lizards", "grass snakes",
+    "half-grown rabbits", "hedgehogs", "red squirrels", "grey squirrels", "rats", "flying squirrels", "kingfishers", "packrats",
+    "dusky-footed woodrats", "big-eared woodrats", "stoats", "ermines", "ruffed grouse", "cardinals", "ptarmigan",
+    "chukars", "quail", "pheasants", "starlings", "blue jays", "stellar jays"
+  ],
+
+  "mountain_tinyprey_singular": [
+    "meadow mouse", "pocket mouse", "white-eared pocket mouse", "spiny pocket mouse", "chipmunk", 
+    "yellow-pine chipmunk", "gray-collared chipmunk", "pocket gopher", "rock vole", "water vole", 
+    "black-eared mouse", "long-tailed shrew", "dwarf shrew", "water shrew"
+  ],
+  "mountain_tinyprey_plural": [
+    "meadow mice", "pocket mice", "white-eared pocket mice", "spiny pocket mice", "chipmunks", 
+    "yellow-pine chipmunks", "gray-collared chipmunks", "pocket gophers", "rock voles", "water voles", 
+    "black-eared mice", "long-tailed shrews", "dwarf shrews", "water shrews"
+  ],
+  "mountain_midprey_singular": [
+    "plump shrew", "woodpecker", "blackbird", "golden-mantled ground squirrel", "half-grown rabbit", "fox squirrel", 
+    "yellow-nosed rat", "red squirrel", "grey squirrel", "rat", "flying squirrel", "pika", "collared pika", "pygmy rabbit"
+  ],
+  "mountain_midprey_plural": [
+    "plump shrews", "woodpeckers", "blackbirds", "golden-mantled ground squirrels", "half-grown rabbits", "fox squirrels", 
+    "yellow-nosed rats", "red squirrels", "grey squirrels", "rats", "flying squirrels", "pikas", "collared pikas", "pygmy rabbits"
+  ],
+  "mountain_bigprey_singular": [
+    
+  ],
+  "mountain_bigprey_plural": [
+    
+  ],
+  
+  "plains_bushfruit_singular": [
+    "strawberry", "goji berry", "blackberry", "blueberry", "currant", "elderberry", "gooseberry", "serviceberry", "raspberry",
+    "blackhaw", "sumac berry", "nannyberry", "aronia berry", "cranberry", "juneberry", "grape", "kiwi"
+  ],
+  "plains_bushfruit_plural": [
+    "strawberries", "goji berries", "blackberries", "blueberries", "currants", "elderberries", "gooseberries", "serviceberries", "raspberries",
+    "blackhaws", "sumac berries", "nannyberries", "aronia berries", "cranberries", "juneberries", "grapes", "kiwis"
+  ],
+  "plains_treefruit_singular": [
+    "green apple", "yellow apple", "red apple", "crabapple", "pawpaw", "cherry", "elderberry", "plum", "mulberry", "apricot",
+    "pomegranate", "pear", "nectarine", "fig", "peach", "persimmon", "hackberry", "dogwood fruit", "acorn", "walnut", "hazelnut"
+    "hickory", "pecan", "chestnut", "butternut", "buckeye"
+  ],
+  "plains_treefruit_plural": [
+    "green apples","yellow apples", "red apples", "crabapples", "pawpaws", "cherries", "elderberries", "plums", "mulberries", "apricots",
+    "pomegranates", "pears", "nectarines", "figs", "peaches", "persimmons", "hackberries", "dogwood fruits", "acorns", "walnuts", "hazelnuts"
+    "hickory", "pecans", "chestnuts", "butternuts", "buckeyes"
+  ],
+  "plains_smallmeat_singular": [
+    "pocket gopher", "yellow-faced pocket gopher", "meadow mouse", "dark kangaroo mouse", "pocket mouse",
+    "pale kangaroo mouse", "little pocket mouse", "sagebrush vole", "gray-tailed vole",
+    "meadow vole", "prairie vole", "long-tailed vole", "heather vole", "pygmy mouse", "white-ankled mouse",
+    "harvest mouse", "grasshopper mouse", "least shrew", "prairie shrew", "mole"
+  ],
+  "plains_smallmeat_plural": [
+    "pocket gophers", "yellow-faced pocket gophers", "meadow mice", "dark kangaroo mice", "pocket mice",
+    "pale kangaroo mice", "little pocket mice", "sagebrush voles", "gray-tailed voles",
+    "meadow voles", "prairie voles", "long-tailed voles", "heather voles", "pygmy mice", "white-ankled mice",
+    "harvest mice", "grasshopper mice", "least shrews", "prairie shrews", "moles"
+  ],
+  "plains_largemeat_singular": [
+    "prairie dog", "white-tailed prairie dog", "black-tailed prairie dog", "packrat", "woodrat", "cotton rat",
+    "tawny-bellied cotton rat"
+  ],
+  "plains_largemeat_plural": [
+    "prairie dogs", "white-tailed prairie dogs", "black-tailed prairie dogs", "packrats", "woodrats", "cotton rats",
+    "tawny-bellied cotton rats"
+  ],
+
+  "wetlands_bushfruit_single": [
+    "beautyberry", "pineapple", "blueberry", "maypop", "grape", "seagrape",
+    "elderberry", "palmetto", "currant", "ugni berry", "goumi beautyberries",
+    "goldenberry", "gooseberry", "thimbleberry", "aronia berry", "caneberry"
+  ],
+  "wetlands_bushfruit_plural": [
+    "beautyberries", "pineapples" "blueberries", "maypops", "grapes", "seagrapes",
+    "elderberries", "palmettos", "currants", "ugni berries", "goumi berries",
+    "goldenberries", "gooseberries", "thimbleberries", "aronia berries", "caneberries"
+  ],
+  "wetlands_treefruit_single": [
+    "chestnut", "acorn", "rio cherry", "pawpaw", "lulo", "passionfruit", "babaco", "pepino dulce", 
+    "jelly palm", "bananna", "coconut", "loquat", "macadamia", "strawberry guava", "white sapote", 
+    "feijoa", "persimmon", "jackfruit", "avacado", "lychee"
+  ],
+  "wetlands_treefruit_plural": [
+    "chestnuts", "acorns", "rio cherries", "pawpaws", "lulos", "passionfruits", "babacos", "pepino dulces", 
+    "jelly palms", "banannas", "coconuts", "loquats", "macadamias", "strawberry guavas", "white sapotes", 
+    "feijoas", "persimmons", "jackfruits", "avacados", "lychees"
+  ],
+  "wetlands_smallmeat_singular": [
+    "salt-marsh vole", "long-tailed vole", "golden mouse", "salt-marsh harvest mouse", "short-tailed shrew", 
+    "least shrew", "marsh shrew"
+  ],
+  "wetlands_smallmeat_plural": [
+    "salt-marsh voles", "long-tailed voles", "golden mice", "salt-marsh harvest mice", "short-tailed shrews", 
+    "least shrews", "marsh shrews"
+  ],
+  "wetlands_smallaqua_singular": [
+    "common frog", "boreal chorus frog", "spring peeper frog"
+  ],
+  "wetlands_smallaqua_plural": [
+    "common frogs", "boreal chorus frogs", "spring peeper frogs"
+  ],
+  "wetlands_largemeat_singular": [
+    "blackbird", "round-tailed muskrat", "muskrat", "big lizard", "grass snake", "marsh rice rat", "rice rat",
+    "kingfisher", "star-nosed mole"
+  ],
+  "wetlands_largemeat_plural": [
+    "blackbirds", "round-tailed muskrats", "muskrats", "big lizards", "grass snakes", "marsh rice rats", "rice rats",
+    "kingfishers", "star-nosed moles"
+  ],
+  "wetlands_largeaqua_singular": [
+    "eel", "crayfish", "bullfrog"
+  ],
+  "wetlands_largeaqua_plural": [
+    "eels", "crayfish", "bullfrogs"
+  ]
+}
